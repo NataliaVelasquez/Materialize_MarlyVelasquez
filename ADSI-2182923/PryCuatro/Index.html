@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body style="background-color:rgb(204, 209, 209)"></body>>
+    <div class="container">
+
+        <!--Seleccion I:Titulo-->
+            <nav>
+                <a href="" class="brand-logo">
+                <div class="container col s6">
+                    <div class="center-align">
+                        <h4> Formulario Registro de Persona </h4>
+                    </div>
+                  
+                    </a>
+                </div>
+            </div>
+
+            </nav>
+        <!--Seccion II:Contiene el Formulario-->
+        <div class="row">
+            <form class="col s12">
+                <!--Primer fila-->
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input type="text" class="validate" id="first_name">
+                        <label for="first_name"> <i class="material-icons"> hdr_strong </i> Nombre(s)</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input type="text" class="validate" id="last_name">
+                        <label for="last_name"> <i class="material-icons">hdr_weak</i>Apellidos</label>
+                    </div>
+                </div>
+                <!--Segunda fila-->
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input type="number" class="validate" id="age_name">
+                        <label for="age_name"><i class="material-icons"> perm_identity </i> Edad</label>
+                    </div>
+                             
+                    <div class="input-field col s3">
+                        <form action="#">
+                            <p>
+                              <label>
+                                <input name="group1" type="radio" class="with-gap"/>
+                                <span><i class="material-icons"> people </i> Femenino</span>
+                              </label>
+                            </p>
+                        </form>
+                    </div>
+                   <!--Tercer Fila-->
+                    <div class="input-field col s3">
+                        <form>
+                            <p>
+                                <label>
+                                <input name="group1" type="radio"class="with-gap" />
+                                <span><i class="material-icons"> people </i> Masculino</span>
+                                </label>
+                            </p>
+                        </form>
+                    </div>
+                    <!--Cuarta Fila-->
+                    <div class="input-field col s6">
+                        <select class="browser-default">
+                          <option value="" disabled selected>Seleccione su estado civil</option>
+                          <option value="1">Soltera (o)</option>
+                          <option value="2">Casada (o)</option>
+                          <option value="3">Divorciada (o)</option>
+                          <option value="4">Union libre</option>
+                          <option value="5">Pareja de hecho</option>
+                        </select>
+                    </div>
+                   <!--Quinta Fila-->
+                    <div class="input-field col s6">
+                        <select class="browser-default">
+                          <option value="" disabled selected>Seleccione tipo de documento</option>
+                          <option value="1">CC</option>
+                          <option value="2">Pasaporte</option>
+                          <option value="3">C.E</option>
+                          <option value="4">NUIP</option>
+                          <option value="5">Tarjeta Militar</option>
+                          <option value="5">Pasaporte</option>
+                        </select>
+                    </div>
+                    <!--Sexta Fila-->
+                    <div class="input-field col s6">
+                        <input type="Number" class="validate" id="ID_Name">
+                        <label for="ID_name"><label for="Tel_Name"><i class="material-icons"> dialpad </i> </label> Numero de Identificacion</label>
+                      </div>
+                     <!--Septima Fila-->
+                      <div class="input-field col s6">
+                        <input type="number" class="validate" id="Tel_Name">
+                        <label for="Tel_Name"><i class="material-icons"> call_end </i> Telefono </label>    
+                      </div>
+                      <!--Octava Linea-->
+            
+                      <div class="input-field col s6">
+                        <input type="text" class="validate" id="Email_Name">
+                        <label for="Email_Name"><label for="Tel_Name"><i class="material-icons"> email </i>Email</label>
+                      </div>
+                    </div>
+                    <div class="input-field col s6">
+                        <form action="#">
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Acepto el tratamiento de mis datos personales</span>
+                                </label>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="input-field col s6">
+                        <form action="#">
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Quiero recibir notificaciones a mi correo electronico</span>
+                                </label>
+                            </p>
+                                                                   
+                        </form>
+                    </div>
+
+                    <div class= "Intup-field col s6">
+                        <button class="btn waves-effect waves-light" type="submit" name="action"> <i class="material-icons"> send </i> Enviar
+                            <i class="material-icons right"></i>
+                          </button>
+                    </div>
+                        
+                    <div>
+                        <button class="btn waves-effect waves-light" type="submit" name="action"> <i class="material-icons"> do_not_disturb </i> Cancelar
+                            <i class="material-icons right"></i>
+                          </button>
+                    </div>   
+                            
+            </form>
+        </div>
+    </div>
+    
+    <script src="materialize/css/materialize.min.css"></script>
+    <script src="materialize/js/materialize.js"></script>
+</body>
+</html>
